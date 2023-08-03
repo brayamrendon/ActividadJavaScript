@@ -5,16 +5,18 @@ que lo disponen y que las fracciones de hora se toman como completas,
 realiza el algoritmo que permita determinar el cobro.*/
 
 
-let horas =prompt("Ingresa la cantidad de horas que utilizaste el parqueadero ")
-let valor =2500
-let op =(parseInt(horas)*valor)
+let hours =prompt("cuantas horas dejaste tu vehiculo en el parqueadero ")
+let minutes=prompt("Cuantos minutos")
 
-if (horas>0) {
+let value =2000
+let operation =(parseInt(hours)*value)
 
-    alert("El valor Total a pagar por "+horas+" H es 💲 "+op)
-}else{
-    alert("Por favor ingresa la cantidad de horas, recuerda que la minima es una hora")
-} 
+if (hours>0) {
+    alert("El valor Total a pagar por "+hours+" H es 💲 "+operation)
+}else if (minutes>0){
+
+    alert("El valor Total a pagar por "+minutes+" Min es 💲 "+operation)
+}
 
 
 

@@ -4,11 +4,10 @@ personas que solicitan trabajo, pero cuando se les realiza la entrevista sólo
 se les pregunta el año en que nacieron. Realiza el algoritmo para solucionar
 este problema.*/
 
-let edad=prompt("Ingrese su año de nacimiento")
-let nom=prompt("Ingrese su nombre")
+let dateOfBirth=prompt("Ingrese su año de nacimiento")
+let youName=prompt("Ingrese su nombre")
 
-let opr=(2023-(parseInt(edad)))
+let operation=(2023-(parseInt(dateOfBirth)))
 
-alert("EL colaborador "+nom+" tine "+opr+" años")
-
-console.log("EL colaborador "+nom+" tine "+opr+" años")
+alert("EL colaborador "+youName+" tiene "+operation+" años")
+console.log("EL colaborador "+youName+" tiene "+operation+" años")
