@@ -9,14 +9,13 @@ let hours =prompt("cuantas horas dejaste tu vehiculo en el parqueadero ")
 let minutes=prompt("Cuantos minutos")
 
 let value =2000
-let operation =(parseInt(hours)*value)
+let totalprice=0
 
-if (hours>0) {
-    alert("El valor Total a pagar por "+hours+" H es 💲 "+operation)
-}else if (minutes>0){
-
-    alert("El valor Total a pagar por "+minutes+" Min es 💲 "+operation)
+if (minutes>0) {
+    hours=parseInt
+    (hours) + 1 
 }
+let operation =hours*value
 
-
+alert("El valor Total a pagar es 💲 "+operation)
 
